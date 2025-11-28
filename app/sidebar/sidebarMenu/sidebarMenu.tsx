@@ -45,7 +45,7 @@ const SidebarMenu = ({ isOpen }: SidebarMenuProps) => {
               src={item.icon}
               alt={item.title}
               className={`w-[11.82px] h-[7.81px] transition-all duration-500 ease-in-out ${
-                isOpen ? "max-w-0 opacity-0 pointer-events-none" : "opacity-100"
+                isOpen ? "max-w-0 opacity-0 pointer-events-none absolute" : "opacity-100"
               }`}
             />
           )}

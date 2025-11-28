@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <div className="flex justify-start">
         <SideBar />
-        <div>
+        <div className="flex-1">
           <Header />
           <Main />
         </div>
