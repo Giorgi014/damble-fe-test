@@ -5,6 +5,10 @@
   font-family: "orbitron_regular";
   src: url("/font/orbitron/static/Orbitron-Regular.ttf") format("woff2");
 }
+@font-face {
+  font-family: "manrope_semi_bold";
+  src: url("/font/manrope/static/Manrope-SemiBold.ttf") format("woff2");
+}
 
 @custom-variant dark (&:is(.dark *));
 
@@ -129,4 +133,7 @@ body {
   font-family: "orbitron_regular";
   overflow-x: hidden;
   overflow-y: scroll;
+}
+.manrope_semi_bold {
+  font-family: "manrope_semi_bold";
 }

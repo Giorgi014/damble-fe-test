@@ -16,7 +16,6 @@ const SideBar = () => {
 
   return (
     <article
-      //  fixed
       className={`bg-[#212633] border-r border-[#F2F2F2]/30 z-[99] overflow-hidden transition-all duration-500 ease-in-out ${
         isOpen ? "w-[78px]" : "w-[299px]"
       }`}

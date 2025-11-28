@@ -5,11 +5,15 @@ import SideBar from "./sidebar/page";
 
 export default function Home() {
   return (
-    <div>
-      <SideBar />
-      <Header />
-      <Main />
+    <>
+      <div className="flex justify-start">
+        <SideBar />
+        <div>
+          <Header />
+          <Main />
+        </div>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
