@@ -1,6 +1,11 @@
 @import "tailwindcss";
 /* @import "tw-animate-css"; */
 
+@font-face {
+  font-family: "orbitron_regular";
+  src: url("/font/orbitron/static/Orbitron-Regular.ttf") format("woff2");
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -77,8 +82,8 @@
 }
 
 .dark {
-  --background: oklch(0.129 0.042 264.695);
-  /* --background: #1C202B; */
+  /* --background: oklch(0.129 0.042 264.695); */
+  --background: #1c202b;
   --foreground: oklch(0.984 0.003 247.858);
   --card: oklch(0.208 0.042 265.755);
   --card-foreground: oklch(0.984 0.003 247.858);
@@ -118,4 +123,10 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+body {
+  font-family: "orbitron_regular";
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
