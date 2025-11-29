@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Cashier from "./cashier/cashier";
-import User from "./user/user";
+import Cashier from "./cashier/page";
+import User from "./user/page";
 
 const Header = () => {
   return (

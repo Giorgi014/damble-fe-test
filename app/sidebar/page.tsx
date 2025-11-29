@@ -3,9 +3,9 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import SidebarMenu from "./sidebarMenu/sidebarMenu";
-import GetCrypto from "./getCrypto/getCrypto";
-import Partners from "./partners/payments";
+import SidebarMenu from "./sidebarMenu/page";
+import GetCrypto from "./getCrypto/page";
+import Partners from "./partners/page";
 
 const SideBar = () => {
   const [isOpen, setIsOpen] = useState(false);

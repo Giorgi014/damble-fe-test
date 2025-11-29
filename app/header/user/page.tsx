@@ -5,11 +5,11 @@ const User = () => {
   return (
     <div className="flex justify-center items-center">
       <Image
-        width={21}
-        height={18.67}
+        width={10}
+        height={10}
         src={"/img/present.svg"}
         alt="present"
-        className="mr-[21px] cursor-pointer"
+        className="mr-[21px] cursor-pointer w-[21px] h-[18.67px]"
       />
       <Image
         width={23.33}
@@ -30,11 +30,11 @@ const User = () => {
         className="flex gap-2 text-[#FFFFFF] text-[16px] leading-[100%] tracking-[0.09em] !bg-transparent border-none rounded-none cursor-pointer"
       >
         <Image
-          width={21}
-          height={24.05}
+          width={10}
+          height={10}
           src={"/img/user-icon.svg"}
           alt="user"
-          className="cursor-pointer"
+          className="w-[21px] h-6 cursor-pointer"
         />
         Username
         <Image

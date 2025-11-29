@@ -1,0 +1,133 @@
+import React from "react";
+
+type IconProps = {
+  className?: string;
+};
+
+export const ProfileIcon: React.FC<IconProps> = ({ className }) => (
+  <svg
+    width="17.53"
+    height="21.92"
+    viewBox="0 0 18 22"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path
+      d="M2.19141 19.7227H15.3428V15.3428H17.5342V21.917H15.3428V21.9141H2.19141V21.917H0V15.3428H2.19141V19.7227ZM15.3408 15.3438H2.19238V13.1523H15.3408V15.3438ZM5.47949 8.76562H12.0537V2.19434H14.2451V8.76855H12.0537V10.957H5.47949V8.76855H3.28809V2.19434H5.47949V8.76562ZM12.0537 2.19141H5.47949V0H12.0537V2.19141Z"
+      fill="currentColor"
+    ></path>
+  </svg>
+);
+
+export const ReferralsIcon: React.FC<IconProps> = ({ className }) => (
+  <svg
+    width="17.22"
+    height="17.22"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path
+      d="M3.82715 17.2188H0V13.3916H3.82715V17.2188ZM17.2227 17.2188H13.3955V13.3916H17.2227V17.2188ZM6.69824 12.4434H4.78516V10.5303H6.69824V12.4434ZM12.4385 12.4434H10.5254V10.5303H12.4385V12.4434ZM8.6084 10.5244H6.69531V8.61133H8.6084V10.5244ZM10.5225 10.5244H8.60938V8.61133H10.5225V10.5244ZM6.69824 6.69531H8.6084V8.6084H6.69531V6.69727H4.78516V4.78418H6.69824V6.69531ZM10.5225 8.6084H8.60938V6.69531H10.5225V8.6084ZM12.4385 6.69727H10.5254V4.78418H12.4385V6.69727ZM3.82715 3.82715H0V0H3.82715V3.82715ZM17.2227 3.82715H13.3955V0H17.2227V3.82715Z"
+      fill="currentColor"
+    />
+  </svg>
+);
+
+export const SettingsIcon: React.FC<IconProps> = ({ className }) => (
+  <svg
+    width="17.22"
+    height="17.22"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path
+      d="M17.2197 17.2197H0V0H17.2197V17.2197ZM1.91309 15.3066H15.3066V1.91309H1.91309V15.3066ZM9.56641 7.65625H13.3936V9.56934H9.56641V13.3945H7.65332V9.56934H3.82715V7.65625H7.65332V3.82812H9.56641V7.65625Z"
+      fill="currentColor"
+    />
+  </svg>
+);
+
+export const VerificationIcon: React.FC<IconProps> = ({ className }) => (
+  <svg
+    width="17.22"
+    height="17.22"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path
+      d="M17.2197 17.2197H0V0H17.2197V17.2197ZM1.91309 15.3066H15.3066V1.91309H1.91309V15.3066ZM9.56641 7.65625H13.3936V9.56934H9.56641V13.3945H7.65332V9.56934H3.82715V7.65625H7.65332V3.82812H9.56641V7.65625Z"
+      fill="currentColor"
+    />
+  </svg>
+);
+
+export const TransactionsIcon: React.FC<IconProps> = ({ className }) => (
+  <svg
+    width="17.22"
+    height="12.78"
+    viewBox="0 0 18 13"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path
+      d="M8.61035 1.59473H17.2197V3.19238H17.2207V12.7744H17.2197V12.7754H1.72266V12.7764H0V0H8.61035V1.59473ZM1.72266 11.1787H15.499V3.19238H6.8877V1.59766H1.72266V11.1787ZM12.0537 6.3916H13.7783V7.98828H12.0537V9.58496H10.332V7.98828H8.6123V6.3916H10.332V4.79395H12.0537V6.3916Z"
+      fill="currentColor"
+    />
+  </svg>
+);
+
+export const BetHistoryIcon: React.FC<IconProps> = ({ className }) => (
+  <svg
+    width="17.22"
+    height="15.5"
+    viewBox="0 0 18 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path
+      d="M12.0537 0V3.44238H15.4971V5.16406H1.72266V13.7754H4.30371V15.4971H1.7207V15.4961H0V3.44238H5.16699V0H12.0537ZM17.2207 15.4971H12.916V13.7754H15.499V3.44238H17.2207V15.4971ZM9.46973 15.4951H7.74805V13.7744H6.02637V12.0557H4.30566V10.334H6.02734V12.0527H7.74805V6.88477H9.46973V15.4951ZM12.916 12.0557H11.1943V13.7744H9.47266V12.0527H11.1943V10.334H12.916V12.0557ZM6.88867 1.72168V3.44238H10.332V1.72168H6.88867Z"
+      fill="currentColor"
+    />
+  </svg>
+);
+
+export const HistoryIcon: React.FC<IconProps> = ({ className }) => (
+  <svg
+    width="17.22"
+    height="12.07"
+    viewBox="0 0 18 13"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path
+      d="M3.44238 6.89746H5.16406V12.0635H3.44238V12.0654H1.7207V12.0635H0V6.89746H1.7207V6.89453H3.44238V6.89746ZM17.2197 12.0576H6.8877V10.3359H17.2197V12.0576ZM1.72168 10.3438H3.44238V8.61621H1.72168V10.3438ZM17.2197 8.60742H6.8877V6.88574H17.2197V8.60742ZM17.2197 5.17383H6.8877V3.45117H17.2197V5.17383ZM3.44238 0.00292969H5.16406V5.16895H3.44238V5.1709H1.7207V5.16895H0V0.00292969H1.7207V0H3.44238V0.00292969ZM1.72266 3.44922H3.44238V1.72168H1.72266V3.44922ZM17.2197 1.72363H6.8877V0.00195312H17.2197V1.72363Z"
+      fill="currentColor"
+    />
+  </svg>
+);
+
+export const GamingIcon: React.FC<IconProps> = ({ className }) => (
+  <svg
+    width="17.22"
+    height="17.22"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path
+      d="M6.45801 17.2178H4.30566V15.0654H6.45801V17.2178ZM17.2197 12.915H4.30469V15.0674H2.15234V12.915H0V10.7627H15.0674V0H17.2197V12.915ZM4.30469 10.7617H2.15234V8.60938H4.30469V10.7617ZM6.45801 8.60645H4.30566V6.4541H6.45801V8.60645Z"
+      fill="currentColor"
+    />
+  </svg>
+);

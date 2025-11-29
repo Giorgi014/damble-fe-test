@@ -17,10 +17,11 @@ const Cashier = () => {
         />
         $ 0.00
         <Image
-          width={10}
-          height={6.01}
+          width={1}
+          height={1}
           src={"/img/down-row.svg"}
           alt="down row"
+          className="w-2.5 h-[6.01px]"
         />
       </Button>
       <Button
